@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#mainbody {
+  background-color: red;
+}
+
+body {
+  margin: 0;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #be3144;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navli {
+  float: right;
+  font-size: 1.5rem;
+  font-family: poppins;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.maindiv {
+  background-color: #181719;
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv-h2 {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  color: azure;
+}
+
+.maindiv h4 {
+  color: #be3144;
+  font-style: italic;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Card starts from here
+*/
+.section2 {
+  text-align: center;
+  padding: 10rem 0 10rem 0;
+  background: #45567d;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+.section2-heading {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #f0f0f0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.7rem;
+  color: #f0f0f0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin-bottom: 3rem;
+  margin-top: -5rem;
+}
+
+.card {
+  margin: 1rem;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.section {
+  background: #303841;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0%;
+}
+
+.section-card {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.section2-image {
+  height: calc(100% - 5rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.code {
+  display: none;
+}
+.card:hover .code {
+  display: inline;
+  color: darkorange;
+}
+.btn-show-all {
+  font-size: 1.5rem;
+  background: #303841;
+  transition: #303841 0.3s ease-out;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 1rem;
+  border-radius: 1px;
+}
+.btn {
+  font-weight: 500;
+}
+.btn-show-all:hover {
+  background-color: #be3144;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  background: #303841;
+}
+.contact-header > h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+}
+.contact-header > p {
+  font-style: italic;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  padding-top: 5px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+.contact-details:hover {
+  transform: translateY(25px);
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-at:before {
+  content: "\f1fa";
+}
+.fa-mobile-alt:before {
+  content: "\f3cd";
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  padding-right: 12px;
+}
+
+.footerclass {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #303841;
+  color: white;
+  border-top: 5px solid #be3144;
+}
